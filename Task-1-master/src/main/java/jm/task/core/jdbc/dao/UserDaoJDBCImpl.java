@@ -52,7 +52,7 @@ public class UserDaoJDBCImpl implements UserDao {
                 """;
 
         try (Connection conn = Util.getConnection();
-                PreparedStatement preparedStatement = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)){
+             PreparedStatement preparedStatement = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)){
 
             preparedStatement.setString(1, name);
             preparedStatement.setString(2, lastName);

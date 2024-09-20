@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Task-1-master/TaskJDBC.iml" filepath="$PROJECT_DIR$/Task-1-master/TaskJDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/preproject_one_jdbc.iml" filepath="$PROJECT_DIR$/.idea/preproject_one_jdbc.iml" />
     </modules>
   </component>

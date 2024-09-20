@@ -10,13 +10,7 @@ package jm.task.core.jdbc;
  */
 
 
-import jm.task.core.jdbc.dao.UserDaoJDBCImpl;
-import jm.task.core.jdbc.model.User;
-import jm.task.core.jdbc.service.UserService;
 import jm.task.core.jdbc.service.UserServiceImpl;
-import jm.task.core.jdbc.util.Util;
-
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,11 +22,8 @@ public class Main {
         daoJDBC.saveUser("Kirill", "Gaincev", (byte) 39);
         daoJDBC.saveUser("Anatoly", "Kiselev", (byte) 33);
         daoJDBC.getAllUsers();
-//        daoJDBC.cleanUsersTable();
-//        daoJDBC.dropUsersTable();
-        daoJDBC.removeUserById(2);
-
-
+        daoJDBC.cleanUsersTable();
+        daoJDBC.dropUsersTable();
+//        daoJDBC.removeUserById(2);
     }
 }
-
